@@ -10,7 +10,7 @@ import FooterSection from "./components/FooterSection";
 
 function App() {
   return (
-    <Box component="main" overflow="hidden">
+    <Box component="main" overflow="hidden" bgcolor="white">
       <Navbar />
       <IntroSection />
       <FeaturesSection />
