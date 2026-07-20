@@ -49,7 +49,7 @@ export default function FeaturesSection() {
   return (
     <Box
       component="section"
-      paddingBlockStart={{ xs: "9.5rem", md: "5.5rem" }}
+      paddingBlockStart={{ xs: "9.5rem", md: "97.65px" }}
       paddingBlockEnd={{ md: "90px" }}
       position="relative"
       zIndex={1}
@@ -66,7 +66,7 @@ export default function FeaturesSection() {
         >
           <Typography
             variant="h2"
-            fontSize={{ xs: "1.5rem", sm: "2.5rem" }}
+            fontSize={{ xs: "1.5rem", sm: "2rem" }}
             fontWeight={500}
           >
             {"Features"}
