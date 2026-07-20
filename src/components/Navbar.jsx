@@ -152,6 +152,7 @@ function Navbar(props) {
     <CustomContainer padding={"2rem"} sx={{ display: "flex" }}>
       <CssBaseline />
       <AppBar
+        aria-label="Navbar"
         component="nav"
         sx={{
           position: "sticky",
@@ -239,29 +240,28 @@ function Navbar(props) {
           </List>
         </Toolbar>
       </AppBar>
-      <nav>
-        <Drawer
-          anchor="right"
-          container={container}
-          variant="temporary"
-          orientation="right"
-          open={mobileOpen}
-          onClose={handleDrawerToggle}
-          ModalProps={{
-            keepMounted: true,
-          }}
-          sx={{
-            display: { xs: "block", md: "none" },
-            "& .MuiDrawer-paper": {
-              boxSizing: "border-box",
-              width: drawerWidth,
-              backgroundColor: "hsl(229deg 31% 21% / 85%)",
-            },
-          }}
-        >
-          {drawer}
-        </Drawer>
-      </nav>
+
+      <Drawer
+        anchor="right"
+        container={container}
+        variant="temporary"
+        orientation="right"
+        open={mobileOpen}
+        onClose={handleDrawerToggle}
+        ModalProps={{
+          keepMounted: true,
+        }}
+        sx={{
+          display: { xs: "block", md: "none" },
+          "& .MuiDrawer-paper": {
+            boxSizing: "border-box",
+            width: drawerWidth,
+            backgroundColor: "hsl(229deg 31% 21% / 85%)",
+          },
+        }}
+      >
+        {drawer}
+      </Drawer>
     </CustomContainer>
   );
 }
