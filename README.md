@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL Here](https://github.com/AbuEisha/front-end-mentor-challenges/tree/bookmark-landing-page)
+- [Solution URL Here](https://github.com/AbuEisha/bookmark-landing-page)
 - [Live Site URL Here](https://bookmark-landing-page-live.pages.dev/)
 
 ## My process
