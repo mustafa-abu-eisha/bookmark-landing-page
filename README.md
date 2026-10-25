@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL Here](https://github.com/AbuEisha/bookmark-landing-page)
+- [Solution URL Here](https://github.com/mustafa-abu-eisha/bookmark-landing-page)
 - [Live Site URL Here](https://bookmark-landing-page-live.pages.dev/)
 
 ## My process
@@ -47,5 +47,5 @@ Users should be able to:
 
 ## Author
 
-- [GitHub Profile Here](https://github.com/AbuEisha)
-- [Frontend Mentor Profile Here](https://www.frontendmentor.io/profile/AbuEisha)
+- [GitHub Profile Here](https://github.com/mustafa-abu-eisha)
+- [Frontend Mentor Profile Here](https://www.frontendmentor.io/profile/mustafa-abu-eisha)
